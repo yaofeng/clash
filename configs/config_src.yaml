@@ -1,0 +1,309 @@
+mixed-port: 7890
+allow-lan: false
+bind-address: "*"
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+experimental:
+  ignore-resolve-fail: true
+hosts:
+  smtp.gmail.com: 74.125.20.109
+dns:
+  enable: false
+  listen: 0.0.0.0:53
+  ipv6: false
+
+  default-nameserver:
+    - 223.5.5.5
+    - 1.0.0.1
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.10.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - stun.*.*.*
+    - stun.*.*
+    - time.windows.com
+    - time.nist.gov
+    - time.apple.com
+    - time.asia.apple.com
+    - "*.ntp.org.cn"
+    - "*.openwrt.pool.ntp.org"
+    - time1.cloud.tencent.com
+    - time.ustc.edu.cn
+    - pool.ntp.org
+    - ntp.ubuntu.com
+    - ntp.aliyun.com
+    - ntp1.aliyun.com
+    - ntp2.aliyun.com
+    - ntp3.aliyun.com
+    - ntp4.aliyun.com
+    - ntp5.aliyun.com
+    - ntp6.aliyun.com
+    - ntp7.aliyun.com
+    - time1.aliyun.com
+    - time2.aliyun.com
+    - time3.aliyun.com
+    - time4.aliyun.com
+    - time5.aliyun.com
+    - time6.aliyun.com
+    - time7.aliyun.com
+    - "*.time.edu.cn"
+    - time1.apple.com
+    - time2.apple.com
+    - time3.apple.com
+    - time4.apple.com
+    - time5.apple.com
+    - time6.apple.com
+    - time7.apple.com
+    - time1.google.com
+    - time2.google.com
+    - time3.google.com
+    - time4.google.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - localhost.ptlogin2.qq.com
+    - "*.*.*.srv.nintendo.net"
+    - "*.*.stun.playstation.net"
+    - xbox.*.*.microsoft.com
+    - "*.*.xboxlive.com"
+  use-hosts: true
+  nameserver:
+    - 119.29.29.29
+    - https://dns.alidns.com/dns-query
+    - https://aliyun.rubyfish.cn/dns-query
+proxies:
+- { name: "HK丨香港1", type: vmess, server: tj0gcyvx.acciff.com, port: 10101, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "HK丨香港2", type: vmess, server: tj0gcyvx.acciff.com, port: 10102, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "HK丨香港3", type: vmess, server: tj0gcyvx.acciff.com, port: 10103, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "HK丨香港4", type: vmess, server: tj0gcyvx.acciff.com, port: 10104, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "HK丨香港5", type: vmess, server: tj0gcyvx.acciff.com, port: 10105, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "TW丨台湾1", type: vmess, server: tj0gcyvx.acciff.com, port: 10201, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "TW丨台湾2", type: vmess, server: tj0gcyvx.acciff.com, port: 10202, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "TW丨台湾3", type: vmess, server: tj0gcyvx.acciff.com, port: 10203, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "JP丨日本1", type: vmess, server: tj0gcyvx.acciff.com, port: 10301, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "JP丨日本2", type: vmess, server: tj0gcyvx.acciff.com, port: 10302, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "JP丨日本3", type: vmess, server: tj0gcyvx.acciff.com, port: 10303, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "KR丨韩国1", type: vmess, server: tj0gcyvx.acciff.com, port: 10401, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "KR丨韩国2", type: vmess, server: tj0gcyvx.acciff.com, port: 10402, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "KR丨韩国3", type: vmess, server: tj0gcyvx.acciff.com, port: 10403, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "SG丨新加坡1", type: vmess, server: tj0gcyvx.acciff.com, port: 10501, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "SG丨新加坡2", type: vmess, server: tj0gcyvx.acciff.com, port: 10502, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "SG丨新加坡3", type: vmess, server: tj0gcyvx.acciff.com, port: 10503, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "MY丨马来西亚1", type: vmess, server: tj0gcyvx.acciff.com, port: 10601, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "PH丨菲律宾1", type: vmess, server: tj0gcyvx.acciff.com, port: 10701, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "PH丨菲律宾2", type: vmess, server: tj0gcyvx.acciff.com, port: 10702, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "ID丨印度尼西亚1", type: vmess, server: tj0gcyvx.acciff.com, port: 10801, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "IN丨印度1", type: vmess, server: tj0gcyvx.acciff.com, port: 10901, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "TH丨泰国1", type: vmess, server: tj0gcyvx.acciff.com, port: 11001, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "VN丨越南1", type: vmess, server: tj0gcyvx.acciff.com, port: 11101, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "PK丨巴基斯坦1-3x", type: vmess, server: tj0gcyvx.acciff.com, port: 11201, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "IL丨以色列1-2x", type: vmess, server: tj0gcyvx.acciff.com, port: 11301, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "KZ丨哈萨克斯坦1", type: vmess, server: tj0gcyvx.acciff.com, port: 11401, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "AE丨阿联酋1-3x", type: vmess, server: tj0gcyvx.acciff.com, port: 11501, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "AU丨澳大利亚1", type: vmess, server: tj0gcyvx.acciff.com, port: 11601, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "AU丨澳大利亚2", type: vmess, server: tj0gcyvx.acciff.com, port: 11602, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "NZ丨新西兰1-3x", type: vmess, server: tj0gcyvx.acciff.com, port: 11701, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "US丨加利福利亚1", type: vmess, server: tj0gcyvx.acciff.com, port: 20101, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "US丨纽约1", type: vmess, server: tj0gcyvx.acciff.com, port: 20201, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "US丨得克萨斯1", type: vmess, server: tj0gcyvx.acciff.com, port: 20301, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "US丨佛罗里达1", type: vmess, server: tj0gcyvx.acciff.com, port: 20401, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "US丨华盛顿1", type: vmess, server: tj0gcyvx.acciff.com, port: 20501, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "US丨俄勒冈1", type: vmess, server: tj0gcyvx.acciff.com, port: 20601, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "CA丨加拿大1", type: vmess, server: tj0gcyvx.acciff.com, port: 20701, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "MX丨墨西哥1", type: vmess, server: tj0gcyvx.acciff.com, port: 20801, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "AR丨阿根廷1", type: vmess, server: tj0gcyvx.acciff.com, port: 30101, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "BR丨巴西1", type: vmess, server: tj0gcyvx.acciff.com, port: 30201, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "UK丨英国1", type: vmess, server: tj0gcyvx.acciff.com, port: 40101, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "UK丨英国2", type: vmess, server: tj0gcyvx.acciff.com, port: 40102, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "UK丨英国3", type: vmess, server: tj0gcyvx.acciff.com, port: 40103, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "FR丨法国1", type: vmess, server: tj0gcyvx.acciff.com, port: 40201, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "DE丨德国1", type: vmess, server: tj0gcyvx.acciff.com, port: 40301, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "IT丨意大利1", type: vmess, server: tj0gcyvx.acciff.com, port: 40401, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "NL丨荷兰1", type: vmess, server: tj0gcyvx.acciff.com, port: 40501, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "SE丨瑞典1", type: vmess, server: tj0gcyvx.acciff.com, port: 40601, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "RU丨俄罗斯1", type: vmess, server: tj0gcyvx.acciff.com, port: 40701, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "UA丨乌克兰1", type: vmess, server: tj0gcyvx.acciff.com, port: 40801, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "TR丨土耳其1", type: vmess, server: tj0gcyvx.acciff.com, port: 40901, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "PL丨波兰1", type: vmess, server: tj0gcyvx.acciff.com, port: 41001, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "DK丨丹麦1", type: vmess, server: tj0gcyvx.acciff.com, port: 41101, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "LT丨立陶宛1", type: vmess, server: tj0gcyvx.acciff.com, port: 41201, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "LV丨拉脱维亚1", type: vmess, server: tj0gcyvx.acciff.com, port: 41301, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "CH丨瑞士1", type: vmess, server: tj0gcyvx.acciff.com, port: 41401, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "RO丨罗马尼亚1", type: vmess, server: tj0gcyvx.acciff.com, port: 41501, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "EG丨埃及1", type: vmess, server: tj0gcyvx.acciff.com, port: 50101, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+- { name: "ZA丨南非1", type: vmess, server: tj0gcyvx.acciff.com, port: 50201, uuid: 0FE9312B-1DD0-0309-01E5-76BAF1D2BF8E, alterId: 0, cipher: auto, network: tcp}
+
+
+proxy-groups:
+  - { name: "主代理", type: select, proxies: ["HK丨香港1", "HK丨香港2", "HK丨香港3", "HK丨香港4", "HK丨香港5", "TW丨台湾1", "TW丨台湾2", "TW丨台湾3", "JP丨日本1", "JP丨日本2", "JP丨日本3", "KR丨韩国1", "KR丨韩国2", "KR丨韩国3", "SG丨新加坡1", "SG丨新加坡2", "SG丨新加坡3", "MY丨马来西亚1", "PH丨菲律宾1", "PH丨菲律宾2", "ID丨印度尼西亚1", "IN丨印度1", "TH丨泰国1", "VN丨越南1", "PK丨巴基斯坦1-3x", "IL丨以色列1-2x", "KZ丨哈萨克斯坦1", "AE丨阿联酋1-3x", "AU丨澳大利亚1", "AU丨澳大利亚2", "NZ丨新西兰1-3x", "US丨加利福利亚1", "US丨纽约1", "US丨得克萨斯1", "US丨佛罗里达1", "US丨华盛顿1", "US丨俄勒冈1", "CA丨加拿大1", "MX丨墨西哥1", "AR丨阿根廷1", "BR丨巴西1", "UK丨英国1", "UK丨英国2", "UK丨英国3", "FR丨法国1", "DE丨德国1", "IT丨意大利1", "NL丨荷兰1", "SE丨瑞典1", "RU丨俄罗斯1", "UA丨乌克兰1", "TR丨土耳其1", "PL丨波兰1", "DK丨丹麦1", "LT丨立陶宛1", "LV丨拉脱维亚1", "CH丨瑞士1", "RO丨罗马尼亚1", "EG丨埃及1", "ZA丨南非1"]}
+  - { name: "美国代理", type: select, proxies: ["US丨加利福利亚1", "US丨纽约1", "US丨得克萨斯1", "US丨佛罗里达1", "US丨华盛顿1", "US丨俄勒冈1"]}
+  - { name: "日本代理", type: select, proxies: ["JP丨日本1", "JP丨日本2", "JP丨日本3"]}
+  - { name: "国外媒体", type: select, proxies: ["主代理","美国代理","日本代理"]}
+  - { name: "微软服务", type: select, proxies: ["DIRECT","主代理","美国代理"]}
+  - { name: "苹果服务", type: select, proxies: ["DIRECT","主代理","美国代理"]}
+  - { name: "漏网之鱼", type: select, proxies: ["DIRECT","主代理"]}
+  - { name: "全球直连", type: select, proxies: ["DIRECT"]}
+  - { name: "全球拦截", type: select, proxies: ["REJECT","DIRECT"]}
+
+rule-providers:
+  PopeyeDirect:
+    behavior: classical # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "https://raw.githubusercontent.com/yaofeng/clash/master/rules/direct.yaml"
+    interval: 86400
+    path: ./popeye/direct.yaml
+  PopeyeProxyUS:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/yaofeng/clash/master/rules/proxy_us.yaml"
+    interval: 86400
+    path: ./popeye/proxy_us.yaml
+  PopeyeProxyJP:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/yaofeng/clash/master/rules/proxy_jp.yaml"
+    interval: 86400
+    path: ./popeye/proxy_jp.yaml
+  PopeyeProxyDefault:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/yaofeng/clash/master/rules/proxy_default.yaml"
+    interval: 86400
+    path: ./popeye/proxy_default.yaml
+  LocalAreaNetwork:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
+    interval: 86400
+    path: ./ACL4SSR/LocalAreaNetwork.yaml
+  UnBan:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml"
+    interval: 86400
+    path: ./ACL4SSR/UnBan.yaml
+  BanAD:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml"
+    interval: 86400
+    path: ./ACL4SSR/BanAD.yaml
+  BanProgramAD:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml"
+    interval: 86400
+    path: ./ACL4SSR/BanProgramAD.yaml
+  GoogleFCM:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml"
+    interval: 86400
+    path: ./ACL4SSR/GoogleFCM.yaml
+  GoogleCN:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml"
+    interval: 86400
+    path: ./ACL4SSR/GoogleCN.yaml
+  SteamCN:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml"
+    interval: 86400
+    path: ./ACL4SSR/SteamCN.yaml
+  Microsoft:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Microsoft.yaml
+  Apple:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Apple.yaml
+  Telegram:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml"
+    interval: 86400
+    path: ./ACL4SSR/Telegram.yaml
+  ProxyLite:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyLite.yaml"
+    interval: 86400
+    path: ./ACL4SSR/ProxyLite.yaml
+  ProxyGFWlist:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml"
+    interval: 86400
+    path: ./ACL4SSR/ProxyGFWlist.yaml
+  ProxyMedia:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml"
+    interval: 86400
+    path: ./ACL4SSR/ProxyMedia.yaml
+  ChinaDomain:
+    behavior: classical 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml"
+    interval: 86400
+    path: ./ACL4SSR/ChinaDomain.yaml
+  ChinaCompanyIp:
+    behavior: ipcidr 
+    type: http
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml"
+    interval: 86400
+    path: ./ACL4SSR/ChinaCompanyIp.yaml
+
+rules:
+ - RULE-SET,LocalAreaNetwork,全球直连
+ - RULE-SET,UnBan,全球直连
+ - RULE-SET,BanAD,全球拦截
+ - RULE-SET,BanProgramAD,全球拦截
+
+ - RULE-SET,PopeyeDirect,全球直连
+ - RULE-SET,PopeyeProxyUS,美国代理
+ - RULE-SET,PopeyeProxyJP,日本代理
+ - RULE-SET,PopeyeProxyDefault,主代理
+
+ - RULE-SET,GoogleFCM,美国代理
+ - RULE-SET,GoogleCN,美国代理
+ - RULE-SET,Microsoft,微软服务
+ - RULE-SET,Apple,苹果服务
+ - RULE-SET,ProxyMedia,国外媒体
+ - RULE-SET,Telegram,主代理
+ - RULE-SET,ProxyLite,主代理
+ - RULE-SET,ProxyGFWlist,主代理
+ - RULE-SET,ChinaDomain,全球直连
+ - RULE-SET,ChinaCompanyIp,全球直连
+ - RULE-SET,SteamCN,全球直连
+
+ - MATCH,漏网之鱼
