@@ -2354,6 +2354,7 @@ rules:
 - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,全球拦截
 - DOMAIN-SUFFIX,hypnos.top,全球直连
 - DOMAIN-SUFFIX,zhongshu.tech,全球直连
+- DOMAIN-SUFFIX,yoo-ai.com,全球直连
 - DOMAIN-SUFFIX,openai.com,美国代理
 - DOMAIN-SUFFIX,auth0.com,美国代理
 - DOMAIN-SUFFIX,sentry.io,美国代理
@@ -3442,7 +3443,6 @@ rules:
 - DOMAIN-SUFFIX,6parkbbs.com,主代理
 - DOMAIN-SUFFIX,6parker.com,主代理
 - DOMAIN-SUFFIX,6parknews.com,主代理
-- DOMAIN-SUFFIX,7-zip.org,主代理
 - DOMAIN-SUFFIX,7capture.com,主代理
 - DOMAIN-SUFFIX,7cow.com,主代理
 - DOMAIN-SUFFIX,8-d.com,主代理
@@ -4269,7 +4269,7 @@ rules:
 - DOMAIN-SUFFIX,civiliangunner.com,主代理
 - DOMAIN-SUFFIX,civilmedia.tw,主代理
 - DOMAIN-SUFFIX,civisec.org,主代理
-- DOMAIN-SUFFIX,cjb.net,主代理
+- DOMAIN-SUFFIX,civitai.com,主代理
 - DOMAIN-SUFFIX,ck101.com,主代理
 - DOMAIN-SUFFIX,clarionproject.org,主代理
 - DOMAIN-SUFFIX,classicalguitarblog.net,主代理
@@ -5281,6 +5281,7 @@ rules:
 - DOMAIN-SUFFIX,goagent.biz,主代理
 - DOMAIN-SUFFIX,goagentplus.com,主代理
 - DOMAIN-SUFFIX,gobet.cc,主代理
+- DOMAIN-SUFFIX,godaddy.com,主代理
 - DOMAIN-SUFFIX,godfootsteps.org,主代理
 - DOMAIN-SUFFIX,godns.work,主代理
 - DOMAIN-SUFFIX,godoc.org,主代理
@@ -6053,6 +6054,7 @@ rules:
 - DOMAIN-SUFFIX,israbox.com,主代理
 - DOMAIN-SUFFIX,issuu.com,主代理
 - DOMAIN-SUFFIX,istars.co.nz,主代理
+- DOMAIN-SUFFIX,istarshine.com,主代理
 - DOMAIN-SUFFIX,istef.info,主代理
 - DOMAIN-SUFFIX,istiqlalhewer.com,主代理
 - DOMAIN-SUFFIX,istockphoto.com,主代理
@@ -6348,6 +6350,7 @@ rules:
 - DOMAIN-SUFFIX,lfpcontent.com,主代理
 - DOMAIN-SUFFIX,lhakar.org,主代理
 - DOMAIN-SUFFIX,lhasocialwork.org,主代理
+- DOMAIN-SUFFIX,li.taipei,主代理
 - DOMAIN-SUFFIX,liangyou.net,主代理
 - DOMAIN-SUFFIX,liangzhichuanmei.com,主代理
 - DOMAIN-SUFFIX,lianyue.net,主代理
@@ -6659,6 +6662,7 @@ rules:
 - DOMAIN-SUFFIX,mondex.org,主代理
 - DOMAIN-SUFFIX,money-link.com.tw,主代理
 - DOMAIN-SUFFIX,moneyhome.biz,主代理
+- DOMAIN-SUFFIX,monica.im,主代理
 - DOMAIN-SUFFIX,monitorchina.org,主代理
 - DOMAIN-SUFFIX,monitorware.com,主代理
 - DOMAIN-SUFFIX,monlamit.org,主代理
@@ -7131,7 +7135,6 @@ rules:
 - DOMAIN-SUFFIX,page.link,主代理
 - DOMAIN-SUFFIX,page.tl,主代理
 - DOMAIN-SUFFIX,page2rss.com,主代理
-- DOMAIN-SUFFIX,pages.dev,主代理
 - DOMAIN-SUFFIX,pagodabox.com,主代理
 - DOMAIN-SUFFIX,palacemoon.com,主代理
 - DOMAIN-SUFFIX,paldengyal.com,主代理
@@ -8367,7 +8370,6 @@ rules:
 - DOMAIN-SUFFIX,tracfone.com,主代理
 - DOMAIN-SUFFIX,tradingview.com,主代理
 - DOMAIN-SUFFIX,translate.goog,主代理
-- DOMAIN-SUFFIX,translate.google,主代理
 - DOMAIN-SUFFIX,transparency.org,主代理
 - DOMAIN-SUFFIX,treemall.com.tw,主代理
 - DOMAIN-SUFFIX,trendsmap.com,主代理
@@ -9706,6 +9708,18 @@ rules:
 - DOMAIN-SUFFIX,hwccpc.com,全球直连
 - DOMAIN-SUFFIX,vmall.com,全球直连
 - DOMAIN-SUFFIX,vmallres.com,全球直连
+- DOMAIN-SUFFIX,allawnfs.com,全球直连
+- DOMAIN-SUFFIX,allawno.com,全球直连
+- DOMAIN-SUFFIX,allawntech.com,全球直连
+- DOMAIN-SUFFIX,coloros.com,全球直连
+- DOMAIN-SUFFIX,heytap.com,全球直连
+- DOMAIN-SUFFIX,heytapcs.com,全球直连
+- DOMAIN-SUFFIX,heytapdownload.com,全球直连
+- DOMAIN-SUFFIX,heytapimage.com,全球直连
+- DOMAIN-SUFFIX,heytapmobi.com,全球直连
+- DOMAIN-SUFFIX,oppo.com,全球直连
+- DOMAIN-SUFFIX,oppoer.me,全球直连
+- DOMAIN-SUFFIX,oppomobile.com,全球直连
 - DOMAIN-SUFFIX,iflyink.com,全球直连
 - DOMAIN-SUFFIX,iflyrec.com,全球直连
 - DOMAIN-SUFFIX,iflytek.com,全球直连
@@ -10020,7 +10034,6 @@ rules:
 - DOMAIN-SUFFIX,onedns.net,全球直连
 - DOMAIN-SUFFIX,oneplus.com,全球直连
 - DOMAIN-SUFFIX,onlinedown.net,全球直连
-- DOMAIN-SUFFIX,oppo.com,全球直连
 - DOMAIN-SUFFIX,oracle.com,全球直连
 - DOMAIN-SUFFIX,oschina.net,全球直连
 - DOMAIN-SUFFIX,ourdvs.com,全球直连

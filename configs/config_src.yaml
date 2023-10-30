@@ -171,25 +171,25 @@ rule-providers:
   PopeyeDirect:
     behavior: classical # domain, ipcidr or classical (premium core only)
     type: http
-    url: "https://raw.githubusercontent.com/yaofeng/clash/master/rules/direct.yaml"
+    url: "https://raw.githubusercontent.com/yaofeng/clash/main/rules/direct.yaml"
     interval: 86400
     path: ./popeye/direct.yaml
   PopeyeProxyUS:
     behavior: classical
     type: http
-    url: "https://raw.githubusercontent.com/yaofeng/clash/master/rules/proxy_us.yaml"
+    url: "https://raw.githubusercontent.com/yaofeng/clash/main/rules/proxy_us.yaml"
     interval: 86400
     path: ./popeye/proxy_us.yaml
   PopeyeProxyJP:
     behavior: classical
     type: http
-    url: "https://raw.githubusercontent.com/yaofeng/clash/master/rules/proxy_jp.yaml"
+    url: "https://raw.githubusercontent.com/yaofeng/clash/main/rules/proxy_jp.yaml"
     interval: 86400
     path: ./popeye/proxy_jp.yaml
   PopeyeProxyDefault:
     behavior: classical
     type: http
-    url: "https://raw.githubusercontent.com/yaofeng/clash/master/rules/proxy_default.yaml"
+    url: "https://raw.githubusercontent.com/yaofeng/clash/main/rules/proxy_default.yaml"
     interval: 86400
     path: ./popeye/proxy_default.yaml
   LocalAreaNetwork:
